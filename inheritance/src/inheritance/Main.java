@@ -10,12 +10,14 @@ public class Main {
 		IndividualCustomer Enes = new IndividualCustomer();
 		Enes.customerNumber = "12312321";
 		
-		CustomerManager customerManager = new CustomerManager();
-		customerManager.add(Enes);
-		
+		CustomerManager customerManager = new CustomerManager();		
 		AnotherCustomer anotherCustomer = new AnotherCustomer();
 		anotherCustomer.customerNumber = "1123414";
-		customerManager.add(anotherCustomer);
+//		customerManager.add(Enes);
+//		customerManager.add(anotherCustomer);
+		
+		Customer[] customers = { Enes, anotherCustomer };
+		customerManager.multipleAdd(customers);
 	}
 
 }
