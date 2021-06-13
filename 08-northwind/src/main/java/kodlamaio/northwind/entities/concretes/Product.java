@@ -40,6 +40,7 @@ public class Product {
 	private String quantityPerUnit;
 	
 	// joins to category table with category id.
+	// adds columns of category table like product columns.
 	@ManyToOne()
 	@JoinColumn(name = "category_id")
 	private Category category;

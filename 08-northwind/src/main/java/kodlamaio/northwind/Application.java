@@ -7,6 +7,8 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+// 9. class dto (data transfer object), validation, joins
+// 8. class product dao, orm mapping
 // 7. class swagger installation
 @SpringBootApplication
 //Anotation to start swagger
